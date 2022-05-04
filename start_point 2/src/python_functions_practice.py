@@ -38,4 +38,6 @@ def get_volume_of_cube(x, y, z):
 
     return (x * y * z)
 
+def ftc(x):
+    return ((x - 32) * (5 / 9))
 
