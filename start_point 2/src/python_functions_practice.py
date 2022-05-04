@@ -21,3 +21,17 @@ def join_string(x, y):
 
 def add_string_as_number(x, y):
     return int(x) + int(y)
+
+def number_to_full_month_name(x):
+
+    months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+    return months[x - 1]
+
+def number_to_short_month_name(x):
+
+    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+    return months[x - 1]
+
+
